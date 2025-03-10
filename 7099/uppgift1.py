@@ -1,17 +1,3 @@
-'''
-kasta en sexsidig tärning 10 gånger
-spara resultat i lista
-sortera med minsta först
-beräkna summan
-beräkna medelvärde
-ange minsta
-ange största
-
-räkna antalet sexor
-vilken valör är vanligast? (svår)
-
-skriv ut för att kontrollera att det blev rätt
-'''
 import random
 min_lista = []
 i = 0
