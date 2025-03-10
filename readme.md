@@ -2,6 +2,7 @@ Våge Kjellman logbok
 ===
 2025-03-10
 ----------
+mer mer me
 
 2025-03-03
 ----------
