@@ -10,7 +10,7 @@ Det är en slinga som loopar
 tillexempel:
 mening = input ("Skriv en mening.")
 
-
+<code>
     for diff in range(1,27):
         output = ""
         for bokstav in mening:
@@ -27,6 +27,7 @@ mening = input ("Skriv en mening.")
                 output = output + (chr(tal))
         print (output)
         print()
+</code>
 
 Denna koden ska krytera en text genom att mata in en kryterad text. Slingan loopar 26 gånger, Det bärettar för programet att hur mycket varje bokstav ska sliftas för att knäcka den krypterade texten eller meningen. Sen så har vi uteslutigt blankslag och gjort så att den visas som "_" i resultatet. Sedan flyttas alla bokstäver bak 26 gånger. Men vi har uteslutigt åäö i kryteringen då kryterade texten inte använde åäö. Denna koden tar meningen ifrån inputet och flyttar bak bostäverna 26 gånger i en for slinga. Och printar ut varje variation av meningen. så 26 variationer skrivs ut och den kryterade meningen gömmer sig i röran av alla olika variationer. Så det är jobbigt att hitta rätt kryptering.
 
