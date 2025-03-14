@@ -18,8 +18,8 @@ medel = sum (min_lista) / len(min_lista)
 min_lista = sorted(min_lista)
 print('antal ettor', antal_1) 
 print(min_lista)
-print ("medel:", medel)
 print ("min: ", min (min_lista))
+print ("medel:", medel)
 print ("max:", max (min_lista))
 antal_6 = 0
 for tal in min_lista:
