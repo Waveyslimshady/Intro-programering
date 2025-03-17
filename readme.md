@@ -6,19 +6,19 @@ if satser.
 
 Denna if satsen berättar hur python ska behandla datan eller variablen och bearbeta den. så som att man matar in 58 så berättar den att det är ett två siffrigt tal. Och om man matar in 563 så berättar koden för dig att det är ett tre siffrigt tal. Så satsen går igenom olika typer av lösningar för att hitta rätt lösning som programeraren har anget.
 
-nummer = input ("Ge mig ett tal mellan 0 till 1000.")
-nummer = int (nummer)
-print(nummer)
-if nummer >=0 and nummer <=9:
-    print ("ensiffrigt tal")
-elif nummer >=9 and nummer <=99:
-    print ("tvåsiffrigt tal")
-elif nummer >=100 and nummer <=999:
-    print ("tresiffrigt tal")
-elif nummer >=1000 and nummer <=9999:
-    print ("Är minst fyrsiffriga tal.")
-elif nummer <=0:
-    print ("Tal mindre än 0 är negativa.")
+    nummer = input ("Ge mig ett tal mellan 0 till 1000.")
+    nummer = int (nummer)
+    print(nummer)
+    if nummer >=0 and nummer <=9:
+        print ("ensiffrigt tal")
+    elif nummer >=9 and nummer <=99:
+        print ("tvåsiffrigt tal")
+    elif nummer >=100 and nummer <=999:
+        print ("tresiffrigt tal")
+    elif nummer >=1000 and nummer <=9999:
+        print ("Är minst fyrsiffriga tal.")
+    elif nummer <=0:
+        print ("Tal mindre än 0 är negativa.")
 
 2025-03-03
 ----------
