@@ -35,7 +35,6 @@ mening = input ("Skriv en mening.")
                 output = output + '_'
             else: 
                 tal= ord (bokstav)
-
                 tal = tal - diff
                 if tal < 97:
                     # aj aj för lite
