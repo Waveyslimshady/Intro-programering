@@ -1,5 +1,28 @@
 Våge Kjellman logbok
 ===
+
+2025-03-31
+----------
+Denna koden fungerar genom att ta emot importerade värdet i kelvin och kalla på definerade formlerna och hitta rätt summa med alla formler som är definerade och sen printar summan i farenhight.
+
+    def kelvintocelcius(kelvin):
+        return kelvin - 273.15
+
+    def celciustofarenhight (celcius):
+        return (9/5) * celcius + 32.0
+
+    def farenhighttocelcius (farenhight):
+        return (5/9) * (farenhight - 32)
+
+    def kelvintofarenhight(kelvin):
+        c = kelvintocelcius(kelvin)
+        f = celciustofarenhight(c)
+        return f
+
+
+    temp = float(input("Ange temperatur i grader kelvin: "))
+    print("Temperaturen är", kelvintofarenhight(temp), "farenhight")
+
 2025-03-10
 ----------
 if satser.
